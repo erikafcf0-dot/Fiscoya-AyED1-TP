@@ -1,4 +1,9 @@
 def vericar_oblongo(num):
+    """
+    
+
+
+    """
     
     for i in range(num+1):
         if i *(i+1) == num:
