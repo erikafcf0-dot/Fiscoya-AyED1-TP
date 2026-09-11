@@ -1,6 +1,6 @@
 def mayor_unico(num1,num2,num3):
     """
-    Compara tres números enteros positivos  y determina si existe un unico mayor.
+    Contrato : Compara tres números enteros positivos  y determina si existe un unico mayor.
     pre: recibe 3 números positivos
     post: Devuelve el entero con mayor valor o un -1 cuando no exista un solo mayor.
 
