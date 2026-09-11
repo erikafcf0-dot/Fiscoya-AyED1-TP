@@ -57,6 +57,8 @@ def main():
         print("La fecha es valida.")
     else:
         print ("La fecha es invalida.")
+
+if __name__ =="__main__":
          
 main()
          
