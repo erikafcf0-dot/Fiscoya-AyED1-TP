@@ -51,6 +51,7 @@ def main():
     print(f"La cantidad de naranjas que sobran es de: {n_cajon}")
     print(f"La cantidad de cajones es de: {cant_cajoness}")
 
+if __name__ = ""__main__""
 main()
 
 
