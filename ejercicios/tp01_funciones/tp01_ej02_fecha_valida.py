@@ -13,6 +13,12 @@ def es_biciesto(ano: int) -> bool :
         return False
 
 def validar_dia(dia: int, mes: int, ano: int) -> bool:
+    """
+    Contrato:
+    Valída si la fecha ingresada es válida o si no.
+    Pre: Recibe tres enteros que representan una fecha.
+    Post: Retorna un booleano en base a si la fecha es correcta.
+    """
     if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
         if dia >= 1 and dia <= 31:
             return True
@@ -40,6 +46,12 @@ def validar_dia(dia: int, mes: int, ano: int) -> bool:
         return False
 
 def main():
+    """
+    Contrato:
+    Ejecuta el código principal.
+    Pre: No recibe nada.
+    Post: No retorna nada, solo ejecuta las funciones para validar el dia.
+    """
 
     dia =0
     while dia <= 0 :
@@ -58,7 +70,7 @@ def main():
     else:
         print ("La fecha es invalida.")
 
-if __name__ =="__main__":
+
          
 main()
          

@@ -1,4 +1,4 @@
-def mayor_unico(num1,num2,num3):
+def mayor_unico(num1: int,num2: int,num3: int) -> int:
     """
     Contrato : Compara tres números enteros positivos  y determina si existe un unico mayor.
     pre: recibe 3 números positivos
@@ -33,6 +33,12 @@ def mayor_unico(num1,num2,num3):
 
 
 def main():
+    """
+    Contrato:
+    Ejecuta el código principal.
+    Pre: No recibe nada.
+    Post: No retorna nada, solo ejecuta la función y pide los números al usuario.
+    """
 
     num1= 0
     while num1 <= 0 :

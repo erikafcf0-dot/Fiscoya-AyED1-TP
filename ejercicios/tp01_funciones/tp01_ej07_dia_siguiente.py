@@ -1,8 +1,8 @@
 def dia_siguiente(dia, mes, anio):
     """
-    contrato:
-    pre:
-    post:
+    contrato: Calcula cual es la fecha siguiente a la ingresada.
+    pre: Recibe 3 enteros positivos que simbolizan una fecha.
+    post: Retorna una tupla.
     """
     if mes == 2 :
         if anio % 400 == 0  or anio % 4 == 0 and anio % 100 != 0 :

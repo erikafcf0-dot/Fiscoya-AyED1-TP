@@ -53,6 +53,12 @@ def es_capicua(lista: list[int]) -> bool :
     return lista == lista.reverse()  
 
 def main():
+    """
+    Contrato:
+    Ejecuta el código.
+    Pre: No recibe nada.
+    Post: No retorna nada, solo hace prints.
+    """
 
     lista1 = num_al_azar()
     print(lista1)

@@ -1,15 +1,14 @@
 
 
 
-def gasto_subte(cantidad_viajes, precio ): 
-
+def gasto_subte(cantidad_viajes: int, precio: int)-> int: 
     """
-    Contrato:
-    pre:
-    post:
+    Contrato: Calcula el precio de todos los viajes incluyendo el descuento.
+    pre: Recibe dos enteros positivos que indican la cantidad de viajes y el precio base.
+    post: Retorna un flotante que indica el gasto total de todos los viajes.
     """ 
     gasto = 0 
-    for i in range(cant_viajes):
+    for i in range(cantidad_viajes):
         if i < 20 :
             gasto += precio
 

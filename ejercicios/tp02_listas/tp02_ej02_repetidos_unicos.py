@@ -19,6 +19,13 @@ def generar_lista(num: int)-> list[int]:
 
 
 def elemento_repetido(lista:list[int])-> bool:
+    """
+    Verifica si una lista contiene un elemento repetido.
+    pre: Recibe una lista de números enteros.
+    post: Retorna True si algún elemento aparece más 
+    de una vez o  false en caso contrario.
+    
+    """
 
     for e in lista:
         if lista.count(e) >= 1 :
@@ -27,6 +34,11 @@ def elemento_repetido(lista:list[int])-> bool:
 
 
 def nueva_lista(lista:list[int])-> list:
+    """
+    Genera una lista nueva
+    pre:Recibe una lista de números enteros.
+    post:Retorna una lista 
+    """
     lista2 = []
     for e in lista:
         if lista.count(e)  == 1  :
@@ -35,6 +47,11 @@ def nueva_lista(lista:list[int])-> list:
     return lista2
     
 def main():
+    """
+    Ejecuta el código principal.
+    Pre: No recibe nada.
+    Post: No retorna nada, solo ejecuta el código principal.
+    """
 
     n =int(input("Ingrese la cantidad de los números aleatorios"))
     lista_1 = generar_lista(n) 

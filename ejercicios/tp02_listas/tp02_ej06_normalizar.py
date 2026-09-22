@@ -1,7 +1,7 @@
 def normalizar(lista:list[int])->list[float]:
     """
     Normaliza los valores de una lista
-    pre:Recibe una lista de números enteros de la cual la suma es mdistinta a 0
+    pre:Recibe una lista de números enteros de la cual la suma es distinta a 0
     post:Retorna una lista con los valores normalizados.
     """
     suma = sum(lista) 
@@ -9,6 +9,11 @@ def normalizar(lista:list[int])->list[float]:
     return [e / suma for e in lista]
 
 def main()->None:
+    """
+    Ejecuta la función normalizar.
+    pre:No recibe parámetros.
+    post: Muestra las dos listas originales y sus listas normalizadas. 
+    """
 
     lista1= [1,1,2]
     print("La lista original es : ")

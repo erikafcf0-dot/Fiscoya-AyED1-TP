@@ -1,7 +1,9 @@
-def vericar_oblongo(num):
+def vericar_oblongo(num: int) -> bool:
     """
-    
-
+    Contrato:
+    Determina si un número es oblongo.
+    Pre: Recibe un entero positivo.
+    Post: Retorna un booleano.
 
     """
     
@@ -17,7 +19,13 @@ print(vericar_oblongo(num))
 
 
 
-def triangular(num):
+def triangular(num: int)-> bool:
+    """
+    Contrato:
+    Determina si un número es oblongo.
+    Pre: Recibe un entero positivo.
+    post: Retorna un booleano.
+    """
 
     num_t= 0
     for i in range(num):

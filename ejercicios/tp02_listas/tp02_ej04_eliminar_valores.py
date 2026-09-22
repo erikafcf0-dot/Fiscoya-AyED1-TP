@@ -1,8 +1,9 @@
 def eliminar_elementos(lista : list[int], lista1 : list[int]) -> None:
     """
-    contrato
-    pre:
-    post:
+    Elimina de una lista los elementos de otra lista.
+    pre:Recibe dos listas de números enteros.
+    post:Modifica la primera lista eliminando los valores que se
+    encuentren en la segunda lista.
     """
     for e in lista1:
         while e in lista:

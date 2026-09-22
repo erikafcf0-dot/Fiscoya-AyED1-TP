@@ -1,8 +1,9 @@
-def calcular_vuelto(recibido, total):
+def calcular_vuelto(recibido: int, total: int)-> None:
     """
     Contrato:
-    pre:
-    post:
+    Determina cuanto tiene que darse de cambio al cliente.
+    pre: Recibe dos enteros positivos que indican el costo total y la cantidad con la que pago el cliente.
+    post: No retorna nada, solo hace print por cada billete que se le entrega de vuelta.
     """
     vuelto = recibido - total
 

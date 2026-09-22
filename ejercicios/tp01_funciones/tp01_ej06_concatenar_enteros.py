@@ -5,10 +5,9 @@ def concatenar_enteros(num1:int, num2: int) -> int:
     contrato:Concatena dos numeros positivos enteros
     pre:recibe dos enteros positivos
     post: un entero positivo formado por ambos parametros recibidos 
-
     """
     cant_dig = 0
-    "aux: int"
+    
     contador = num2 
 
     while True:
